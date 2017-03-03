@@ -59,10 +59,13 @@ section img+ul {
 
 dd {
 	border: black solid thin;
-	width:200px;
+	width:100px;
 	text-align:center;
 	padding:10px;
 	margin:10px;
+}
+dd >img {
+	width:100px;
 }
 table {
 	border-collapse:collapse;
@@ -90,7 +93,7 @@ table td {
 	color:#444;
 }
 textarea {
-	width:100%;
+	width:80%;
 	height:200px;
 }
 #x1 {
@@ -117,4 +120,7 @@ footer {
 #aside {
 	border-left:thick solid darkgray;
 	padding:10px
+}
+#hui {
+	color:gray;
 }
