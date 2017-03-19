@@ -1,4 +1,45 @@
+a {
+	text-decoration:none;
+}
 #main {
 	width:1280px;
 	margin:auto;
+}
+/*蓝色头部*/
+header {
+	background-color:#2189bf;
+	padding:10px;
+}
+header>img {
+	margin-left:40px;
+}
+header>div {
+	float:right;
+	line-height:30px;
+}
+/*登陆*/
+#header_div_right a {
+	color:#fff;
+	font-size:12px;
+}
+#header_div_right img {
+	padding:8px 2px 8px 8px;
+	float:left;
+}
+#header_div_right {
+	margin-right:80px;
+}
+/*搜索*/
+#header_div_left {
+	background-color:#fff;
+	border-radius:30px;
+	padding:0 20px;
+	margin-right:20px;
+}
+#header_div_left img {
+	float:left;
+	margin-top:7px;
+}
+#header_div_left input {
+	border:none;
 }
