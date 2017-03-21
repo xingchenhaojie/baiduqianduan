@@ -1,0 +1,34 @@
+#wai {
+	width:100%;
+	display:flex;
+	flex-wrap:wrap;
+}
+#wai>div {
+	width:150px;
+	border:1px solid #f00;
+	margin:20px;
+}
+#one {
+	height:120px;
+}
+#two {
+	height:100px;
+}
+#three {
+	height:40px;
+}
+#wai #four {
+	height:200px;
+	border-color:#00f;
+}
+@media only screen and (min-width:641px){
+	#wai {
+		justify-content:space-between;
+		align-items:center;
+	}
+}
+@media only screen and (max-width:640px){
+	#four {
+		order:-1;
+	}
+}
