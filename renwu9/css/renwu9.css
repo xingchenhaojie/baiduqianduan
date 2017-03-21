@@ -263,7 +263,7 @@ section {
 	line-height:12px;
 	border-top:4px solid #fff;
 }
-.time-selected {
+.row2-time:hover {
 	border-color:#4388c9;
 }
 .row2-time p {
@@ -455,6 +455,9 @@ section {
 	width:85px;
 	background-color:#ededf0;
 	margin-left:5px;
+}
+#row4-tabs label:hover {
+	cursor:pointer;
 }
 .divBig input{
 	visibility:hidden;
@@ -649,4 +652,8 @@ section {
 }
 #zhishu10 {
 	width:30%;
+}
+.row5-right table tr:not(:first-of-type):hover {
+	cursor: pointer;/*鼠标移上变手型*/
+	background-color:#f4f5f6;
 }
