@@ -1,9 +1,20 @@
+body,p,ul,li {
+	margin:0;
+	padding:0;
+}
 a {
 	text-decoration:none;
 }
 #main {
 	width:1280px;
 	margin:auto;
+	border-left:1px solid #000;
+	border-right:1px solid #000;
+}
+#main:after {
+	content:"";
+	clear:both;
+	display:block;
 }
 /*蓝色头部*/
 header {
@@ -42,4 +53,480 @@ header>div {
 }
 #header_div_left input {
 	border:none;
+}
+/*侧边栏*/
+aside {
+	height:1210px;
+	float:left;
+	background-color:#2a2e3d;
+	width:260px;
+	color:#576477;
+	font-size:12px;
+}
+/*头像名称*/
+#aside_div1 {
+	padding-top:18px;
+	color:#cdcdcf;
+	line-height:57px;
+	font-size:16px;
+	padding-left:40px;
+}
+#aside_div1 img {
+	float:left;
+	padding-right:18px;
+}
+/*收藏粉丝*/
+#aside_div2 {
+	padding:20px 0px;
+	padding-left:40px;
+}
+#aside_div2_left {
+	float:left;
+	padding-left:20px;
+	padding-right:29px;
+	border-right:1px solid;
+	margin-right:30px;
+}
+
+#aside_div3>ul>li {
+	padding:15px 40px;
+}
+#aside_div3 ul,#aside_div3 li  {
+	list-style-position:inside;
+}
+/*个人报表*/
+.xuanzhong {
+	color:white;
+}
+.aside_li_1 {
+	list-style:url(../image/renwu9-5.png);
+	background-color:#383d4e;
+}
+.aside_li_1>ul {
+	list-style:url(../image/renwu9-6.png);
+}
+.aside_li_1 li {
+	margin-top:16px;
+	margin-left:20px;
+}
+/*文件二*/
+.aside_li_xuanzhong {
+	list-style:url(../image/renwu9-7.png);
+}
+/*文档2*/
+.aside_li_xuanzhong li {
+	list-style:url(../image/renwu9-9.png);
+	margin-left:40px;
+}
+/*文档1*/
+.aside_li_xuanzhong li:first-child {
+	list-style:url(../image/renwu9-8.png);
+}
+/*个人收藏 图库 成长记录*/
+.aside_li_2 {
+	list-style:url(../image/renwu9-10.png);
+}
+/*我的分享*/
+.aside_li_3 {
+	list-style:url(../image/renwu9-11.png);
+}
+/*账号信息*/
+.aside_li_4 {
+	list-style:url(../image/renwu9-12.png);
+}
+section {
+	float:left;
+}
+#section_div1 {
+	height:30px;
+	font-size:12px;
+	color:#dadada;
+	line-height:30px;
+	padding-left:30px;
+}
+#section_div1 span {
+	color:#6898c2;
+}
+
+#section_div2 {
+	padding:20px 60px 0 70px;
+	background-color:#ededec;
+	height:1180px;
+	box-sizing:border-box;
+	width:1020px;
+}
+
+/*第一排*/
+#section_div2_one {
+	background-color:#fff;
+	padding:5px;
+	font-size:12px;
+	color:#c9c9c9;
+}
+#section_div2_one option {
+	font-size:12px;
+}
+#section_div2_one:after {
+	content:"";
+	clear:both;
+	display:block;
+}
+#section_div2_one>div {
+	float:left;
+}
+/*查询项*/
+#section_div2_one_div1 {
+	padding:5px;
+	margin-left:20px;
+}
+#section_div2_one_div1 select {
+	width:70px;
+	padding:3px 0px 3px 10px;
+	background:url(../image/renwu9-14.png) no-repeat 55px 10px;
+	-webkit-appearance:none;
+}
+/*买方卖方*/
+#section_div2_one_div2 {
+	margin-left:30px;
+	padding-bottom:5px;
+}
+#section_div2_one_div2>div {
+	padding:5px 0 0 10px;
+}
+#section_div2_one_div2 select {
+	width:120px;
+	padding:3px 0px 3px 10px;
+	background:url(../image/renwu9-14.png) no-repeat -265px -20px;
+	-webkit-appearance:none;
+}
+/*换*/
+#section_div2_one_div3 {
+	padding-top:15px;
+}
+#section_div2_one_div4 {
+	margin-left:30px;
+}
+#section_div2_one_div4_shang {
+	padding:5px 0;
+}
+.section_div2_one_div4_select1 {
+	width:70px;
+	padding:3px 0px 3px 10px;
+	background:url(../image/renwu9-14.png) no-repeat -310px -20px;
+	-webkit-appearance:none;
+}
+.section_div2_one_div4_select2 {
+	width:120px;
+	padding:3px 0px 3px 10px;
+	background:url(../image/renwu9-14.png) no-repeat -265px -20px;
+	-webkit-appearance:none;
+}
+#section_div2_one_div4 label {
+	padding:0 10px;
+}
+#section_div2_one_div4 input[type="date"] {
+	width:120px;
+	box-sizing:border-box;
+}
+#section_div2_one_div4+button {
+	margin:18px 0 0 30px;
+}
+.search {
+	background-color:#388bc2;
+	border:none;
+	width:50px;
+	height:24px;
+	color:#fff;
+}
+
+/*第二排*/
+#row2 {
+	height:65px;
+	margin-top:10px;
+}
+#row2 div {
+	height:100%;
+	background-color:#fff;
+	float:left;
+}
+.row2-arrow {
+	width:30px;
+}
+#row2-arrowLeft {
+	background:url(../image/renwu9-15.png) no-repeat 50% 50%;
+}
+.row2-time {
+	width:110px;
+	box-sizing:border-box;
+	text-align:center;
+	margin-left:5px;
+	font-size:10px;
+	line-height:12px;
+	border-top:4px solid #fff;
+}
+.time-selected {
+	border-color:#4388c9;
+}
+.row2-time p {
+	padding-top:10px;
+}
+.row2-time p span {
+	color:#ec6500;
+	font-size:16px;
+}
+.row2-p1 {
+	color:#aeaead;
+}
+#row2-arrowRight {
+	margin-left:5px;
+	background:url(../image/renwu9-16.png) no-repeat 50% 50%;
+}
+#row2-history {
+	margin-left:5px;
+	width:130px;
+	background:url(../image/renwu9-17.png) no-repeat 20% 50%;
+	text-align:right;
+	box-sizing:border-box;
+	line-height:65px;
+	padding-right:10px;
+	font-size:14px;
+}
+#row3-div1{
+	margin-bottom:5px;
+}
+#row3 {
+	margin-top:20px;
+}
+#row3:after {
+	content:"";
+	clear:both;
+	display:block;
+}
+.row3-div2 {
+	height:70px;
+	width:185px;
+	border-left:5px solid;
+	background-color:#fff;
+	padding-left:10px;
+	line-height:25px;
+	font-size:10px;
+	float:left;
+}
+.row3-div2 p:nth-of-type(1) {
+	padding-top:10px;
+}
+.row3-kuai {
+	width:60px;
+	height:45px;
+	float:right;
+	margin:14px 15px 0 0 ;
+}
+.green {
+	border-color:#44b29e;
+}
+.greenBg {
+	background-color:#44b29e;
+}
+.blue {
+	border-color:#388bc2;
+	margin-left:30px;
+}
+.blueBg {
+	background-color:#388bc2;
+}
+.red {
+	border-color:#d04b36;
+	margin-left:30px;
+}
+.redBg {
+	background-color:#d04b36;
+}
+.yellow {
+	border-color:#e1cc46;
+	margin-left:30px;
+}
+.yellowBg {
+	background-color:#e1cc46;
+}
+/*第四排*/
+#row4 {
+	margin-top:20px;
+}
+#row4:after {
+	content:"";
+	clear:both;
+	display:block;
+}
+.divBig {
+	width:530px;
+	height:355px;
+	background-color:#fff;
+	float:left;
+	border-radius:5px;
+	font-size:12px;
+}
+.divSmall {
+	width:350px;
+	height:355px;
+	background-color:#fff;
+	float:left;
+	border-radius:5px;
+	font-size:12px;
+}
+#row5 {
+	margin-top:10px;
+}
+#row5:after {
+	content:"";
+	clear:both;
+	display:block;
+}
+.mL10 {
+	margin-left:10px;
+}
+.title {
+	height:40px;
+	line-height:40px;
+	background-color:#f4f5f6;
+	color:#d8d9da;
+	padding-left:20px;
+}
+/*第四排右边*/
+#row4-divRight {
+	padding-left:30px;
+	text-indent:1em
+}
+#row4-divRight p {
+	padding-bottom:5px;
+}
+#row4-divRight>div:nth-child(1) {
+	width:285px;
+	padding-top: 16px;
+	border-bottom:1px solid #aeaead;
+}
+#row4-divRight>div:nth-child(3) {
+	width:93px;
+	border-bottom:1px solid #aeaead;
+	border-right:1px solid #aeaead;
+}
+#row4-divRight>div:nth-child(2) {
+	float:right;
+	width:227px;
+	border-bottom:1px solid #aeaead;
+}
+#row4-divRight>div:nth-child(4) {
+	height:145px;
+}
+#row4-input {
+	padding-top:5px;
+	width:283px;
+	border-top:1px solid #aeaead;
+	line-height:30px;
+}
+#row4-input:after {
+	content:"";
+	display:block;
+	clear:both;
+}
+#row4-input input {
+	padding:0px;
+	margin:0px;
+}
+#row4-input button {
+	float:right;
+}
+/*第四排左边*/
+#row4-tabs {
+	height:25px;
+	padding-left:15px;
+	line-height:25px;
+	text-align:center;
+	margin-top:-26px;
+}
+#row4-tabs:after {
+	content:"";
+	display:block;
+	clear:both;
+}
+/*将label改为一个块级元素*/
+#row4-tabs label {
+	display:block;
+	height:25px;
+	float:left;
+	width:85px;
+	background-color:#ededf0;
+	margin-left:5px;
+}
+.divBig input{
+	visibility:hidden;
+	height:10px;
+}
+.panels {
+	margin-top:20px;
+	margin-left:20px;
+	border:1px solid #cacbcb;
+	width:490px;
+	height:250px;
+	position:relative
+}
+.panel {
+	position:absolute;
+	top:30px;
+	left:40px;
+	display:none;
+}
+.panel table {
+	border-collapse:collapse;
+	border:none;
+}
+.panel table td {
+	width:100px;
+	text-align:center;
+	line-height:28px;
+}
+/*先找到那个单选框被选中 再通过~寻找他的兄弟元素.panels 找到对应的label改变颜色*/
+.divBig input:nth-of-type(1):checked~.panels #row4-tabs label:nth-of-type(1) {
+	background-color:#fff;
+	border-top:1px solid #cacbcb;
+	border-left:1px solid #cacbcb;
+	border-right:1px solid #cacbcb;
+}
+.divBig input:nth-of-type(2):checked~.panels #row4-tabs label:nth-of-type(2) {
+	background-color:#fff;
+	border-top:1px solid #cacbcb;
+	border-left:1px solid #cacbcb;
+	border-right:1px solid #cacbcb;
+}
+.divBig input:nth-of-type(3):checked~.panels #row4-tabs label:nth-of-type(3) {
+	background-color:#fff;
+	border-top:1px solid #cacbcb;
+	border-left:1px solid #cacbcb;
+	border-right:1px solid #cacbcb;
+}
+.divBig input:nth-of-type(4):checked~.panels #row4-tabs label:nth-of-type(4) {
+	background-color:#fff;
+	border-top:1px solid #cacbcb;
+	border-left:1px solid #cacbcb;
+	border-right:1px solid #cacbcb;
+}
+.divBig input:nth-of-type(5):checked~.panels #row4-tabs label:nth-of-type(5) {
+	background-color:#fff;
+	border-top:1px solid #cacbcb;
+	border-left:1px solid #cacbcb;
+	border-right:1px solid #cacbcb;
+}
+.divBig input:nth-of-type(1):checked~.panels .panel:nth-of-type(2) {
+	display:block;
+}
+.divBig input:nth-of-type(2):checked~.panels .panel:nth-of-type(3) {
+	display:block;
+}
+.divBig input:nth-of-type(3):checked~.panels .panel:nth-of-type(4) {
+	display:block;
+}
+.divBig input:nth-of-type(4):checked~.panels .panel:nth-of-type(5) {
+	display:block;
+}
+.divBig input:nth-of-type(5):checked~.panels .panel:nth-of-type(6) {
+	display:block;
 }
