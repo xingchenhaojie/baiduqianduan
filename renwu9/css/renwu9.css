@@ -8,8 +8,6 @@ a {
 #main {
 	width:1280px;
 	margin:auto;
-	border-left:1px solid #000;
-	border-right:1px solid #000;
 }
 #main:after {
 	content:"";
@@ -18,6 +16,7 @@ a {
 }
 /*蓝色头部*/
 header {
+	min-width:1280px;
 	background-color:#2189bf;
 	padding:10px;
 }
@@ -334,7 +333,7 @@ section {
 .blueBg {
 	background-color:#388bc2;
 }
-.red {
+.redBor {
 	border-color:#d04b36;
 	margin-left:30px;
 }
@@ -529,4 +528,125 @@ section {
 }
 .divBig input:nth-of-type(5):checked~.panels .panel:nth-of-type(6) {
 	display:block;
+}
+/*日历*/
+#row5 .divSmall>div:nth-of-type(2){
+	padding:0 20px;
+	text-align:center;
+}
+#row5-left-button {
+	padding:10px 0;
+	border-bottom:1px solid #a9cfec;
+	
+}
+#row5-left-button select {
+	height:25px;
+	padding-right:5px;
+}
+#row5-left-button select:nth-of-type(2) {
+	width:75px;
+	padding:0 15px;
+}
+#row5-left-button+div{
+	border-bottom:1px solid #000;
+	line-height:30px;
+}
+#row5-left-button+div:after {
+	content:"";
+	display:block;
+	clear:both;
+}
+#row5-left-button+div span {
+	display:block;
+	float:left;
+	width:44px;
+}
+#row5-left-button+div span:first-child {
+	padding-left:0px;
+}
+#row5-left-button~table td {
+	width:39px;
+	height:40px;
+}
+.red {
+	color:#d46063;
+}
+.borderYellow {
+	border:1px solid #f7d463;
+}
+.row5-right {
+	padding:15px 0 0 40px;
+}
+.row5-right table {
+	border:0;
+	border-collapse:collapse;
+	text-align:center;
+	line-height:23px;
+}
+.row5-right table th {
+	font-weight:600;
+}
+.row5-right table th:nth-of-type(1) {
+	width:70px;
+}
+.row5-right table th:nth-of-type(2) {
+	width:90px;
+}
+.row5-right table td:nth-of-type(3),.row5-right table th:nth-of-type(3) {
+	width:290px;
+	text-align:left;
+	text-indent:2em;
+}
+.row5-right table td {
+	font-size:12px;
+}
+.wai {
+	width:170px;
+	height:5px;
+	background-color:#dcdcdc;
+	float:right;
+	margin:8px 20px 0 0;
+}
+.wai div {
+	height:100%;
+	background:#7fcaf0;
+}
+#zhishu1 {
+	background:#ed6e52;
+	width:85%;
+}
+#zhishu2 {
+	background:#ef8150;
+	width:80%;
+}
+#zhishu3 {
+	background:#f19e4f;
+	width:75%;
+}
+#zhishu4 {
+	width:70%;
+}
+#zhishu5 {
+	width:65%;
+}
+#zhishu6 {
+	width:60%;
+}
+#zhishu7 {
+	width:55%;
+}
+#zhishu8 {
+	width:50%;
+}
+#zhishu7 {
+	width:45%;
+}
+#zhishu8 {
+	width:40%;
+}
+#zhishu9 {
+	width:35%;
+}
+#zhishu10 {
+	width:30%;
 }
