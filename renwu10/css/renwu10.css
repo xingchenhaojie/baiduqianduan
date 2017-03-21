@@ -1,12 +1,17 @@
+body {
+	margin:0;
+	padding:0;
+}
 #wai {
-	width:100%;
 	display:flex;
 	flex-wrap:wrap;
+	padding:0 20px;
 }
 #wai>div {
+	margin-top:20px;
 	width:150px;
 	border:1px solid #f00;
-	margin:20px;
+	box-sizing:border-box;
 }
 #one {
 	height:120px;
@@ -30,5 +35,10 @@
 @media only screen and (max-width:640px){
 	#four {
 		order:-1;
+	}
+	#wai {
+		align-content: flex-start;
+		justify-content:space-between;
+		align-items:flex-start;
 	}
 }
