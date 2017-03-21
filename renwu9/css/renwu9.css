@@ -544,8 +544,8 @@ section {
 	padding-right:5px;
 }
 #row5-left-button select:nth-of-type(2) {
-	width:75px;
-	padding:0 15px;
+	width:60px;
+	padding:0 5px;
 }
 #row5-left-button+div{
 	border-bottom:1px solid #000;
